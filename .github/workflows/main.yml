@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - 'Benjamin'
+    tags:
+      - 'v*'
 
 jobs:
   build:
